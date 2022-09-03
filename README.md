@@ -1,4 +1,4 @@
-### Arrays ![problems-solved](https://img.shields.io/badge/Solved-6/6-1abc9c.svg)
+### Topic : Arrays   ![problems-solved](https://img.shields.io/badge/Solved-6/6-1abc9c.svg)
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
