@@ -1,6 +1,6 @@
 package com.gfg.arrays;
 
-public class SampleTest {
+public class MinimumDistanceBetweenTwoNumbers {
 	int minDist(int a[], int n, int x, int y) {
 		int distance = Integer.MAX_VALUE;
 		int indexOfX = Integer.MAX_VALUE;
@@ -23,4 +23,10 @@ public class SampleTest {
 		return distance;
 	}
 
+	public static void main(String[] args) {
+		MinimumDistanceBetweenTwoNumbers mdbtn = new MinimumDistanceBetweenTwoNumbers();
+		int[] nums = { 1, 10, 20, 47, 59, 65, 75, 88, 99 };
+		System.out.println(mdbtn.minDist(nums, 9, 1, 75));
+
+	}
 }
