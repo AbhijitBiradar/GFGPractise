@@ -2,7 +2,12 @@ package com.gfg.arrays;
 
 import java.util.Random;
 
-public class SampleTest {
+// Refer
+// https://practice.geeksforgeeks.org/problems/kth-smallest-element5635/1?page=1&difficulty[]=1&category[]=Arrays&sortBy=submissions
+// Not understood
+
+public class KthSmallestElement {
+
 	public static int kthSmallest(int[] arr, int l, int r, int k) {
 
 		if (r == 0) {
@@ -52,4 +57,11 @@ public class SampleTest {
 		arr[j] = t;
 
 	}
+
+	public static void main(String[] args) {
+		int[] arr = {7, 10, 4, 3, 20, 15};		
+		System.out.println(KthSmallestElement.kthSmallest(arr, 0, 5, 3));
+
+	}
+
 }

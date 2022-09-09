@@ -1,5 +1,8 @@
 package com.gfg.arrays;
 
+// Refer
+// https://practice.geeksforgeeks.org/problems/minimum-distance-between-two-numbers/1?page=1&difficulty[]=-1&category[]=Arrays&sortBy=submissions
+
 public class MinimumDistanceBetweenTwoNumbers {
 	int minDist(int a[], int n, int x, int y) {
 		int distance = Integer.MAX_VALUE;
